@@ -4,7 +4,7 @@
     <header
       class="bg-blue-500 p-4 text-white text-xl font-bold fixed top-0 left-0 right-0 z-10"
     >
-      vue3-ai-assistant
+      Chat with Books
     </header>
 
     <main class="mt-16 p-4">
@@ -18,7 +18,7 @@
             class="flex items-end mb-2 justify-end"
           >
             <div
-              class="bg-purple-500 text-white p-2 rounded-tr-lg rounded-br-lg rounded-bl-lg w-max inline-block"
+              class="bg-purple-500 text-white p-2 rounded-tr-lg rounded-tl-lg rounded-bl-lg w-max inline-block"
             >
               {{ item.content }}
             </div>
@@ -37,7 +37,7 @@
               alt="AI头像"
             />
             <div
-              class="bg-blue-500 text-white p-2 rounded-tl-lg rounded-bl-lg rounded-br-lg w-max inline-block"
+              class="bg-blue-500 text-white p-2 rounded-tl-lg rounded-br-lg rounded-tr-lg w-max inline-block"
             >
               <div v-html="item.content"></div>
             </div>
