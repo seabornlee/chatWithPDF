@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "ingest": "node script/ingest-data.js",
-    "crawler":"node script/vue-document-crawler.js"
+    "crawler": "node script/vue-document-crawler.js"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
     "koa-static": "^5.0.0",
     "langchain": "^0.0.71",
     "marked": "^5.0.1",
+    "pdf-parse": "^1.1.1",
     "turndown": "^7.1.2"
   },
   "devDependencies": {
